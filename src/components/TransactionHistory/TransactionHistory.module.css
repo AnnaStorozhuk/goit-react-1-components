@@ -1,0 +1,21 @@
+.thead {
+  background-color: #00f6f0;
+  padding: 5px;
+}
+.th {
+  color: white;
+  padding: 15px 25px;
+}
+
+.tbody {
+  background-color: white;
+}
+
+.tbody:nth-child(2n) {
+  background-color: #e1e1e1;
+}
+
+.tr {
+  padding: 15px 25px;
+  justify-content: center;
+}
