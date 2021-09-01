@@ -1,6 +1,5 @@
 .statistics {
   width: 250px;
-  /* border: 1px solid grey; */
   margin-left: 20px;
 }
 
@@ -37,9 +36,3 @@
 .item:nth-child(5) {
   background-color: rosybrown;
 }
-
-/* .label {
-}
-
-.percentage {
-} */

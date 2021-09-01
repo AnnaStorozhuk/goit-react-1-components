@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
 import css from './Staticstics.module.css';
 
-export const Statistics = ({title, stats}) => {
-      return (
+export const Statistics = ({ title, stats }) => {
+  return (
     <section className={css.statistics}>
       <h2 className={css.title}>{title}</h2>
 
@@ -16,19 +16,15 @@ export const Statistics = ({title, stats}) => {
       </ul>
     </section>
   );
-}
-          
- 
+};
 
 Statistics.propTypes = {
   events: PropTypes.arrayOf(
-      PropTypes.exact({
-         title: PropTypes.string.isRequired,
+    PropTypes.exact({
+      title: PropTypes.string.isRequired,
       id: PropTypes.string.isRequired,
       label: PropTypes.string.isRequired,
       percentage: PropTypes.string.isRequired,
-      
-    
     }),
   ),
 };
